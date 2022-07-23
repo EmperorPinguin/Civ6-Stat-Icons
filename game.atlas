@@ -39,23 +39,16 @@ StatIcons/Happiness
   orig: 100, 100
   offset: 0, 0
   index: -1
-StatIcons/Population
+StatIcons/Production
   rotate: false
   xy: 544, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-StatIcons/Production
-  rotate: false
-  xy: 652, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 StatIcons/Science
   rotate: false
-  xy: 760, 4
+  xy: 652, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

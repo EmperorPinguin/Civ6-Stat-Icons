@@ -1,2 +1,1 @@
-# Civ6-Stat-Icons
-Adds Civ6-like stat icons.
+Adds new stat icons to the game.
