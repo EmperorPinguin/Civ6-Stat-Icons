@@ -1,0 +1,1118 @@
+[
+	{
+		"name": "Civic Tree",
+		"era": "Ancient era",
+		"uniques": ["Each city founded increases culture cost of policies [100]% less than normal","Free Social Policy"],
+		"policies": [
+
+// Row 1s 
+			{
+				"name": "Craftsmanship",
+				"uniques":[
+"Governments enabled:
+* Chiefdom
+Policies enabled:
+* Ilkum
+* Agoge 
+Tile improvements enabled:
+*Chemamull
+*Sphinx ",
+"[-25]% Culture cost of adopting new Policies"],
+				"requires": ["Code of Laws"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Military Tradition", 
+				"uniques": [
+"Policies enabled:
+* Maneuver
+* Strategos ",
+"[-25]% Culture cost of adopting new Policies"],
+				"requires": ["Craftsmanship"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Games and Recreation",
+				"uniques": [
+"Policies enabled:
+* Insulae
+Districts enabled:
+* Entertainment Complex
+* Street Carnival
+* Hippodrome
+Wonders enabled:
+* Colosseum
+Buildings enabled:
+* Arena
+* Tlachtli ",
+"[-10]% Culture cost of adopting new Policies",
+],
+				"requires": ["State Workforce"],
+				"row": 1,
+				"column": 9
+			},
+			{
+				"name": "Military Training",
+				"uniques": [
+"Policies enabled:
+* Raid
+* Veterancy
+* Equestrian Orders
+Wonder enabled: 
+* Statue of Zeus ",
+"Free [Envoy] appears",
+],
+				"requires": ["Games and Recreation","Military Tradition"],
+				"row": 1,
+				"column": 11
+			},
+			{
+				"name": "Naval Tradition",
+				"uniques": [
+"Policies enabled: 
+* Naval Tradition
+* Navigation ",
+"Free [Envoy] appears",
+],
+				"requires": ["Defensive Tactics"],
+				"row": 1,
+				"column": 15
+			},
+			{
+				"name": "Mercenaries",
+				"uniques": [
+"Policies enabled: 
+* Professional Army
+* Sack
+* Trade Confederacy
+Units enabled:
+* Jong ",
+"Free [Envoy] appears",
+],
+				"requires": ["Feudalism","Military Training"],
+				"row": 1,
+				"column": 17
+			},
+			{
+				"name": "Exploration",
+				"uniques": [
+"Governments enabled:
+* Merchant Republic
+Policies enabled:
+* Press Gangs
+* Native Conquest
+* Colonial Offices
+Policies obsolete:
+* Survey
+* Discipline
+* Urban Planning ",
+],
+				"requires": ["Mercenaries","Medieval Faires"],
+				"row": 1,
+				"column": 21
+			},
+			{
+				"name": "Mercantilism",
+				"uniques": [
+"Policies enabled:
+* Logistics
+* Triangular Trade
+Policies obsolete:
+* Caravansaries
+Units enabled:
+* Winged Hussar
+* Privateer 
+* Sea Dog
+Camp:
+* +1 Food, +1 Production ",
+],
+				"requires": ["Humanism"],
+				"row": 1,
+				"column": 25
+			},
+			{
+				"name": "Colonialism",
+				"uniques": [
+"Policies enabled:
+* Colonial Taxes
+* Raj
+Policies obsolete:
+* Maritime Industries
+Tile improvement enabled:
+* Ice Hockey Rink ",
+"[2] free [Envoy] units appear", 
+], 
+				"requires": ["Mercantilism"],
+				"row": 1,
+				"column": 27
+			},
+			{
+				"name": "Natural History",
+				"uniques": [
+"Districts enabled:
+* Water Park 
+* Copacabana 
+Units enabled:
+* Archaeologist
+Wonders enabled: 
+* Hermitage
+Buildings enabled:
+* Zoo 
+* Thermal Bath
+* Ferris Wheel
+* Aquarium ",
+Antiquity Site:
+* Revealed on the map
+Sphinx:
+* +1 Culture
+Ziggurat:
+* +1 Culture
+"[2] free [Envoy] units appear", 
+],
+				"requires": ["Colonialism"],
+				"row": 1,
+				"column": 31
+			},
+			{
+				"name": "Conservation",
+				"uniques": [
+"Policies enabled:
+* Resource Management
+Units enabled:
+* Naturalist 
+* Mountie
+Forest:
+* May be planted
+Mekewap:
+* +1 Food for every 2 adjacent Mekewaps ",
+"[3] free [Envoy] units appear",
+],
+				"requires": ["Natural History","Urbanization"],
+				"row": 1,
+				"column": 33
+			},
+			{
+				"name": "Capitalism",
+				"uniques": [
+"Policies enabled:
+* Market Economy:
+* Laissez-Faire
+Policies Obsolete:
+* Trade Confederation
+* Traveling Merchants
+Buildings enabled:
+* Shopping Mall ",
+"[3] free [Envoy] units appear",
+],
+				"requires": ["Mass Media"],
+				"row": 1,
+				"column": 35
+			},
+			{
+				"name": "Suffrage",
+				"uniques": [
+"Governments enabled:
+* Demacracy
+Policies enabled:
+* Thei Finest Hour
+* Economic Union
+* New Deal
+* Arsenal of Democracy
+Policies obsolete:
+* Liberalism
+* Medina Quarter
+* Naval Infrastructure
+* Town Charters
+* Wisselbanken ",
+],
+				"requires": ["Ideology"],
+				"row": 1,
+				"column": 37
+			},
+			{
+				"name": "Cultural Heritage",
+				"uniques": [
+"Policies enabled:
+* Heritage Tourism
+Wonders enabled:
+* Sydney Opera House
+Shipwreck: 
+* Revealed on the map
+Mission:
+* +2 Science ",
+"[3] free [Envoy] units appear",
+],
+				"requires": ["Conservation"],
+				"row": 1,
+				"column": 39
+			},	
+			{
+				"name": "Rapid Deployment",
+				"uniques": [
+"Policies enabled:
+* Military First
+* After Action Reports
+Policies obsolete:
+* Grande Armée
+Wonders enabled:
+* Amundsen-Scott Research Station 
+Outback Station:
+* +1 Food for every 2 adjacent Outback Stations",
+],
+				"requires": ["Cold War"],
+				"row": 1,
+				"column": 41
+			},
+			{
+				"name": "Environmentalism",
+				"uniques": [
+"Policies enabled:
+* Ecotourism ",
+],
+				"requires": ["Cultural Heritage","Rapid Deployment"],
+				"row": 1,
+				"column": 43
+			},
+			{
+				"name": "Near Future Governance",
+				"uniques": [
+"[3] free [Envoy] units appear",
+],
+				"requires": ["Environmentalism","Globalization"],
+				"row": 1,
+				"column": 45
+			},	
+			{
+				"name": "Global Warming Mitigation",
+				"uniques": [
+"[3] free [Envoy] units appear",
+],
+				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
+					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
+				"row": 1,
+				"column": 49
+			},	
+// Row 2s
+			{
+				"name": "Code of Laws",
+				"uniques": [
+"Governments enabled:
+* Chiefdom
+Policies enabled:
+* Survey
+* Discipline
+* God King
+* Urban Planning "
+],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "State Workforce",
+				"uniques": [
+"Policies enabled:
+* Corvée
+* Conscription ",
+"[-25]% Culture cost of adopting new Policies"
+],
+				"requires": ["Craftsmanship"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Early Empire",
+				"uniques": [
+"Policies enabled:
+* Colonization
+* Land Surveyors 
+* Limitanei 
+Tile impromements enabled:
+* Pairidaeza ",
+"Enables Open Borders agreements",
+"[-10]% Culture cost of adopting new Policies",
+],
+				"requires": ["Craftsmanship"],
+				"row": 2,
+				"column": 7
+			},
+			{
+				"name": "Political Philosophy",
+				"uniques": [
+"Governments enabled:
+* Autocracy
+* Classical Republic
+* Olicharchy
+Policies enabled:
+* Charismatic Leader
+* Diplomatic League
+Wonders enabled:
+* Apadana ",
+],
+				"requires": ["State Workforce","Early Empire"],
+				"row": 2,
+				"column": 9
+			},
+			{
+				"name": "Defensive Tactics",
+				"uniques": [
+"Policies enabled:
+* Bastions
+* Limes
+Wonders enabled:
+* Mausoleum at Halicarnassus ",
+],
+				"requires": ["Games and Recreation","Political Philosophy"],
+				"row": 2,
+				"column": 11
+			},
+			{
+				"name": "Recorded History",
+				"uniques": [
+"Polices enabled:
+* Natural Philosophy
+* Praetorium
+Wonders enabled:
+* Great Library ",
+],
+				"requires": ["Drama and Poetry","Political Philosophy"],
+				"row": 2,
+				"column": 13
+			},
+			{
+				"name": "Feudalism",
+				"uniques": [
+"Policies enabled:
+* Feudal Contract
+* Serfdom
+Policies Obsolete:
+* Agoge
+* Ilkum
+Units enabled:
+* Samurai
+Farm:
+* +1 Food if adjacent to at least 2 Farms 
+Plantation:
+* +1 Food
+Stepwell:
+* +1 Faith ",
+],
+				"requires": ["Defensive Tactics"],
+				"row": 2,
+				"column": 15
+			},
+			{
+				"name": "Medieval Faires",
+				"uniques": [
+"Policies enabled:
+* Aesthetics
+* Medina Quarter
+* Merchant Confederation
+Policies obsolete:
+* Insulae
+Units enabled:
+* Barbary Corsair
+Wonders enabled:
+* Angkor Wat ",
+],
+				"requires": ["Feudalism"],
+				"row": 2,
+				"column": 17
+			},
+			{
+				"name": "Guilds",
+				"uniques": [
+"Policies enabled:
+* Craftsmen
+* Town Charters
+* Travelling Merchants
+Districts enabled:
+* Mbanza
+Wonders enabled:
+* Chichen Itza
+Improvements enabled:
+* Outback Station
+* Polder ",
+],
+				"requires": ["Feudalism","Civil Service"],
+				"row": 2,
+				"column": 19
+			},
+			{
+				"name": "Humanism",
+				"uniques": [
+"Policies enabled:
+* Frescoes
+* Invention
+Policies obsolete:
+* Revelation
+Wonders enabled:
+* Taj Mahal
+Buildings enabled:
+* Art Museum 
+Tile improvements enabled:
+* Revelation ",
+					"[Great Artist] is earned [15]% faster"],
+				"requires": ["Medieval Faires","Guilds"],
+				"row": 2,
+				"column": 21
+			},
+			{
+				"name": "Diplomatic Service",
+				"uniques": [
+"Policies enabled:
+* Machiavellianism
+* Wisselbanken 
+Units enabled:
+* Spy
+Piridaeza:
+* +1 Culture ",
+],
+				"requires": ["Guilds"],
+				"row": 2,
+				"column": 23
+			},
+			{
+				"name": "Civil Engineering",
+				"uniques": [
+"Policies enabled:
+* Public Works
+* Skyscrapers
+Policies obsolete:
+* Bastions
+* Limes
+* Corvée
+* Serfdom
+* Gothic Architecture
+Farm:
+* Can be built on Grassland Hill tiles and Plains Hill tiles
+Kampung:
+* +1 Production
+Polder:
+* +4 Gold ", 
+],
+				"requires": ["Mercantilism"],
+				"row": 2,
+				"column": 27
+			}, 
+			{
+				"name": "Nationalism",
+				"uniques": [
+"Policies enabled:
+* Grande Armée
+* National Identity
+Policies obsolete:
+* Feudal Contract
+Units enabled:
+* Minas Geraes
+Tile Improvements enabled:
+* Open-Air Museum ",
+					"[+20]% Production when constructing [Field Cannon] units [in all cities]","[+20]% Production when constructing [Garde Impériale] units [in all cities]",
+					"[+20]% Production when constructing [Redcoat] units [in all cities]"],
+				"requires": ["The Enlightenment"],
+				"row": 2,
+				"column": 29
+			},
+			{
+				"name": "Urbanization",
+				"uniques": [
+"Policies enabled:
+* Military Research
+* Public Transport
+Districts enabled:
+* Neighbourhood ",
+],
+				"requires": ["Civil Engineering","Nationalism"],
+				"row": 2,
+				"column": 31
+			},
+			{
+				"name": "Mass Media",
+				"uniques": [
+"Policies enabled:
+* Propaganda
+Policies obsolete:
+* Retainers
+Wonders enabled:
+* Broadway 
+* Cristo Redentor ",
+],
+				"requires": ["Natural History","Urbanization"],
+				"row": 2,
+				"column": 33
+			},
+			{
+				"name": "Ideology",
+				"uniques": [
+"Policies enabled:
+* Police State ",
+],
+				"requires": ["Mass Media","Mobilization"],
+				"row": 2,
+				"column": 35
+			},
+			{
+				"name": "Totalitarianism",
+				"uniques": [
+"Governments enabled:
+* Fascism
+Policies enabled:
+* Lightning Warfare
+* Martial Law
+* Third Alternative
+* Gunboat Diplomacy
+Policies obsolete:
+* Chivalry
+* Maneuver
+* Charismatic Leader ",
+],
+				"requires": ["Ideology"],
+				"row": 2,
+				"column": 37
+			},
+			{
+				"name": "Cold War",
+				"uniques": [
+"Policies enabled:
+* International Waters
+* Second Strike Capability
+* Containment
+* Cryptography
+Policies obsolete:
+* Maritime Industries
+* Press Gangs ",
+],
+				"requires": ["Ideology"],
+				"row": 2,
+				"column": 39
+			},	
+			{
+				"name": "Space Race",
+				"uniques": [
+"Policies enabled:
+* Integrated Space Cell
+* Sattelite Broadcasts
+Policies obsolete:
+* Military Research ",
+],
+				"requires": ["Cold War"],
+				"row": 2,
+				"column": 41
+			},
+			{
+				"name": "Globalization",
+				"uniques": [
+"Policies enabled:
+* Strategic Air Force
+* International Space Agency
+* Ecommerce
+Policies Obsolete:
+* Their Finest Hour
+* Triangular Trade
+Plantation:
+* +2 Gold ",
+],
+				"requires": ["Rapid Deployment","Space Race"],
+				"row": 2,
+				"column": 43
+			},	
+			{
+				"name": "Venture Politics",
+				"uniques": [
+"Governments enabled:
+* Corporate Libertarianism ",
+],
+				"requires": ["Globalization","Social Media"],
+				"row": 2,
+				"column": 45
+			},	
+			{
+				"name": "Distributed Sovereignty",
+				"uniques": [
+"Governments enabled:
+* Digital Democracy ",
+],
+				"requires": ["Globalization","Social Media"],
+				"row": 2,
+				"column": 47
+			},
+			{
+				"name": "Information Warfare",
+				"uniques": [
+"Policies enabled:
+* Integrated Attack Logistics
+* Rabblerousing ",
+],
+				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
+					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
+				"row": 2,
+				"column": 49
+			},
+			{
+				"name": "Smart Power Doctrine",
+				"uniques": [
+"Policies enabled:
+* Diplomatic Capital
+* Global Coalition ",
+],
+				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
+					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
+				"row": 2,
+				"column": 51
+			},	
+			{
+				"name": "Exodus Imperative",
+				"uniques": [
+"Policies enabled:
+* Aerospace Contractors ",
+],
+				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
+					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
+				"row": 2,
+				"column": 53
+			},
+			{
+				"name": "Future Civic",
+				"uniques": [
+"Production to [Science] conversion in cities changed by [33]%",
+"Gifts of Gold to City-States generate [25]% more Influence"
+],
+				"requires": ["Information Warfare","Global Warming Mitigation","Cultural Hegemony",
+					"Smart Power Doctrine","Exodus Imperative"],
+				"row": 2,
+				"column": 55
+			}, 
+
+// Row 3s
+			{
+				"name": "Foreign Trade",
+				"uniques": [
+"Policies enabled:
+* Caravansaries
+* Maritime Industries ",
+"[-25]% Culture cost of adopting new Policies",
+],
+				"requires": ["Code of Laws"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Mysticism",
+				"uniques": [
+"Policies enabled:
+* Inspiration
+* Revelation
+Wonders enabled:
+* Oracle ",
+"Free [Envoy] appears",
+"[-20]% Culture cost of adopting new Policies"],
+				"requires": ["Foreign Trade"],
+				"row": 3,
+				"column": 7
+			},
+			{
+				"name": "Drama and Poetry",
+				"uniques": [
+"Policies enabled:
+* Literary Tradition
+Districts enabled:
+* Theatre Square
+* Acropolis 
+Buildings enabled:
+* Amphitheater
+* Marae ",
+"[-10]% Culture cost of adopting new Policies"
+],
+				"requires": ["Early Empire"],
+				"row": 3,
+				"column": 9
+			},
+			{
+				"name": "Theology",
+				"uniques": [
+"Policies enabled:
+* Scripture
+Wonders enabled:
+* Mahabodhi Temple
+Buildings enabled:
+* Temple 
+* Prasat 
+* Stave Church 
+* Madrasa ",
+"Free [Envoy] appears",
+],
+				"requires": ["Drama and Poetry","Mysticism"],
+				"row": 3,
+				"column": 13
+			},
+			{
+				"name": "Civil Service",
+				"uniques": [
+"Policies enabled:
+* Retainers
+* Meritocracy
+* Civil Prestige
+Wonders enabled:
+* Meenakshi Temple 
+Mekewap: 
+* +1 Food, +1 Production ",
+],
+				"requires": ["Defensive Tactics","Recorded History"],
+				"row": 3,
+				"column": 15
+			},
+			{
+				"name": "Divine Right",
+				"uniques": [
+"Governments enabled:
+* Monarchy
+Policies enabled:
+* Chivalry 
+* Gothic Architecture
+Policies obsolete:
+* Maneuver
+* Corvée
+Wonders enabled:
+* Mont St. Michel
+* Kotoku-in 
+Units enabled:
+* Tagma ",
+],
+				"requires": ["Civil Service","Theology"],
+				"row": 3,
+				"column": 19
+			},
+			{
+				"name": "Reformed Church",
+				"uniques": [
+"Governments enabled:
+* Theocracy
+Policies enabled:
+* Wars of Religion
+* Religious Orders
+* Simultaneum
+Wonders enabled:
+* St. Basil's Cathedral 
+Tile improvements enabled:
+* Golf Course ",
+],
+				"requires": ["Divine Right"],
+				"row": 3,
+				"column": 23
+			},
+			{
+				"name": "The Enlightenment",
+				"uniques": [
+"Policies enabled:
+* Free Market
+* Liberalism
+* Rationalism ",
+],
+				"requires": ["Diplomatic Service"],
+				"row": 3,
+				"column": 25
+			},
+			{
+				"name": "Opera and Ballet", 
+				"uniques": [
+"Policies enabled:
+* Grand Opera
+* Symphonies
+Wonders enabled:
+* Bolshoi Theatre",
+"[2] free [Envoy] units appear",
+],
+				"requires": ["The Enlightenment"],
+				"row": 3,
+				"column": 29
+			},
+			{
+				"name": "Scorched Earth",
+				"uniques": [
+"Policies enabled:
+* Total War
+* Expropriation
+* Military Organization
+Policies Obsolete:
+* Raid
+* Sack
+* Colonization
+* Land Surveyors
+* Strategos",
+"[2] free [Envoy] units appear",
+],
+				"requires": ["Civil Engineering","Nationalism"],
+				"row": 3,
+				"column": 31
+			},
+			{
+				"name": "Mobilization",
+				"uniques": [
+"Policies enabled:
+* Levée en Masse
+Policies obsolete:
+* Conscription ",
+],
+				"requires": ["Urbanization"],
+				"row": 3,
+				"column": 33
+			},
+			{
+				"name": "Nuclear Program",
+				"uniques": [
+"Policies enabled:
+* Nobel Prize
+Policies obsolete:
+* Inspiration ",
+"[3] free [Envoy] units appear",
+],
+				"requires": ["Ideology"],
+				"row": 3,
+				"column": 35
+			},
+			{
+				"name": "Class Struggle",
+				"uniques": [
+"Governements enabled:
+* Communism
+Policies enabled:
+* Defense of the Motherland
+* Patriotic War
+* Collectivization
+* Five-Year Plan
+Policies obsolete:
+* Craftsmen
+* Natural Philosophy ",
+],
+				"requires": ["Ideology"],
+				"row": 3,
+				"column": 37
+			},
+			{
+				"name": "Professional Sports",
+				"uniques": [
+"Policies enabled:
+* Sports Media
+Policies obsolete:
+* Aesthetics
+* Grand Opera
+Buildings enabled:
+* Stadium 
+* Aquatics Center 
+Wonders enabled:
+* Estadio de Maracana
+Tile Improvements enabled:
+* Ski Resort
+Stepwell:
+* +1 Food ",
+],
+				"requires": ["Ideology"],
+				"row": 3,
+				"column": 39
+			},	
+			{
+				"name": "Social Media",
+				"uniques": [
+"Policies enabled:
+* Online Communities
+* Collective activism
+* Communications Office
+Policies Obsolete:
+* Praetorium ",
+],
+				"requires": ["Professional Sports","Space Race"],
+				"row": 3,
+				"column": 43
+			},	
+			{
+				"name": "Optimization Imperative",
+				"uniques": [
+"Governments enabled:
+* Synthetic Technocracy ",
+],
+				"requires": ["Globalization","Social Media"],
+				"row": 3,
+				"column": 47
+			},
+			{
+				"name": "Cultural Hegemony",
+				"uniques": [
+"Policies enabled: 
+* Non-State Actors ",
+],
+				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
+					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
+				"row": 3,
+				"column": 51
+			},	
+
+// Finisher
+			{
+				"name": "Civic Tree Complete"
+				"uniques": ["Triggers a Cultural Victory upon completion"],
+			},
+		]
+	}
+
+/*
+
+//Governments
+
+   {
+        "name": "Chiefdom",
+        "era": "Ancient era",
+        "uniques": [
+"Only available <after adopting [Code of Laws]>",
+"Provides [1] [Military Policy Slots] <before adopting [Autocracy]> <before adopting [Classical Republic]> <before adopting [Oligarchy]>",
+"Provides [1] [Economic Policy Slots] <before adopting [Autocracy]> <before adopting [Classical Republic]> <before adopting [Oligarchy]>",
+"Free Social Policy"
+        ],
+        "policies": [
+            {
+                "name": "Autocracy",
+                "uniques": [
+"Only available <after adopting [Political Philosophy]>",
+"Provides [1] [Military Policy Slots] <before adopting [Merchant Republic]> <before adopting [Monarchy]> <before adopting [Theocracy]>",
+"Provides [1] [Economic Policy Slots] <before adopting [Merchant Republic]> <before adopting [Monarchy]> <before adopting [Theocracy]>",
+"Provides [1] [Diplomatic Policy Slots] <before adopting [Merchant Republic]> <before adopting [Monarchy]> <before adopting [Theocracy]>",
+"Provides [1] [Wildcard Policy Slots] <before adopting [Merchant Republic]> <before adopting [Monarchy]> <before adopting [Theocracy]>",
+"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Happiness, +1 Faith] [in capital] <before adopting [Merchant Republic]> <before adopting [Monarchy]> <before adopting [Theocracy]>",
+"[+10]% Production when constructing [All] wonders [in all cities]",
+"Only available <before adopting [Classical Republic]>",
+"Only available <before adopting [Oligarchy]>",
+"Free Social Policy",
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Classical Republic",
+                "uniques": [
+"Only available <after adopting [Political Philosophy]>",
+"Provides [2] [Economic Policy Slots] <before adopting [Merchant Republic]> <before adopting [Monarchy]> <before adopting [Theocracy]>",
+"Provides [1] [Diplomatic Policy Slots] <before adopting [Merchant Republic]> <before adopting [Monarchy]> <before adopting [Theocracy]>",
+"Provides [1] [Wildcard Policy Slots] <before adopting [Merchant Republic]> <before adopting [Monarchy]> <before adopting [Theocracy]>",
+"[+1 Happiness] [in all cities] <before adopting [Merchant Republic]> <before adopting [Monarchy]> <before adopting [Theocracy]>",
+"[5]% Food is carried over after population increases [in all cities] <before adopting [Merchant Republic]> <before adopting [Monarchy]> <before adopting [Theocracy]>",
+"[+15]% Great Person generation [in all cities]",
+"Only available <before adopting [Autocracy]>",
+"Only available <before adopting [Oligarchy]>",
+"Free Social Policy",
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Oligarchy",
+                "uniques": [
+"Only available <after adopting [Political Philosophy]>",
+"Provides [2] [Military Policy Slots] <before adopting [Merchant Republic]> <before adopting [Monarchy]> <before adopting [Theocracy]>",
+"Provides [1] [Economic Policy Slots] <before adopting [Merchant Republic]> <before adopting [Monarchy]> <before adopting [Theocracy]>",
+"Provides [1] [Wildcard Policy Slots] <before adopting [Merchant Republic]> <before adopting [Monarchy]> <before adopting [Theocracy]>",
+"[+27]% Strength <for [Melee] units> <before adopting [Merchant Republic]> <before adopting [Monarchy]> <before adopting [Theocracy]>",
+"[+27]% Strength <for [Anti-Cavalry] units> <before adopting [Merchant Republic]> <before adopting [Monarchy]> <before adopting [Theocracy]>",
+"[+27]% Strength <for [Naval Melee] units> <before adopting [Merchant Republic]> <before adopting [Monarchy]> <before adopting [Theocracy]>",
+"[+20]% XP gained from combat <for [Military] units>",
+"Only available <before adopting [Autocracy]>",
+"Only available <before adopting [Classical Republic]>",
+"Free Social Policy",
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Merchant Republic",
+                "uniques": [
+"Only available <after adopting [Exploration]>",
+"Provides [1] [Military Policy Slots] <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"Provides [2] [Economic Policy Slots] <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"Provides [2] [Diplomatic Policy Slots] <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"Provides [1] [Wildcard Policy Slots] <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"[+10]% [Gold] [in all cities] <befor adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"[Gold] cost of purchasing items in cities [-15]%",
+"[+15]% Production when constructing [Campus] buildings [in all cities] <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"[+15]% Production when constructing [Commercial Hub] buildings [in all cities] <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"[+15]% Production when constructing [Entertainment Complex] buildings [in all cities] <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"[+15]% Production when constructing [Harbor] buildings [in all cities] <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"[+15]% Production when constructing [Holy] buildings [in all cities] <before adopting [Communism]> <beforee adopting [Democracy]> <before adopting [Fascism]>",
+"[+15]% Production when constructing [Industrial Zone] buildings [in all cities] <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"[+15]% Production when constructing [Neighbourhood] buildings [in all cities] <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"[+15]% Production when constructing [Theatre Square] buildings [in all cities] <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"[+15]% Production when constructing [Water Park] buildings [in all cities] <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"Only available <before adopting [Monarchy]>",
+"Only available <before adopting [Theocracy]>"
+"Free Social Policy",
+                ],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Monarchy",
+                "uniques": [
+"Only available <after adopting [Divine Right]>",
+"Provides [2] [Military Policy Slots] <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"Provides [1] [Economic Policy Slots] <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"Provides [1] [Diplomatic Policy Slots] <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"Provides [2] [Wildcard Policy Slots] <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"[5]% Food is carried over after population increases [in all cities] <in cities with a [Ancient Walls]> <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"[5]% Food is carried over after population increases [in all cities] <in cities with a [Medieval Walls]> <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"[5]% Food is carried over after population increases [in all cities] <in cities with a [Renaissance Walls]> <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"[-33]% City-State Influence degradation",
+"Only available <before adopting [Merchant Republic]>",
+"Only available <before adopting [Theocracy]>",
+"Free Social Policy",
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Theocracy",
+                "uniques": [
+"Only available <after adopting [Reformed Church]>",
+"Provides [2] [Military Policy Slots] <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"Provides [2] [Economic Policy Slots] <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"Provides [1] [Diplomatic Policy Slots] <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"Provides [1] [Wildcard Policy Slots] <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"[+33]% Spread Religion Strength <for [Great Prophet] units> <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"[+33]% Spread Religion Strength <for [Missionary] units> <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"[+1 Faith] per [2] population [in all cities] <before adopting [Communism]> <before adopting [Democracy]> <before adopting [Fascism]>",
+"[Faith] cost of purchasing items in cities [-15]%",
+"Only available <before adopting [Merchant Republic]>",
+"Only available <before adopting [Monarchy]>",
+"Free Social Policy",
+                ],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Communism",
+                "uniques": [
+                ],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Democracy",
+                "uniques": [
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Fascism",
+                "uniques": [
+                ],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Chiefdom Complete",
+                "uniques": [
+
+                ]
+            }
+        ]
+    },
+*/
+]
